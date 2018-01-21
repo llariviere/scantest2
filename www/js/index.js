@@ -45,7 +45,7 @@ app.initialize();
 
 
 var currentDocumentImage = { imageFileUri: '', originalImageFileUri: '' };
-var ocrLanguages = ["en", "fr"];
+var ocrLanguages = ["eng", "fra"];
 var jpgQuality = 70;
 
 
