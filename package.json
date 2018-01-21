@@ -1,0 +1,30 @@
+{
+    "name": "bizswiper.app",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "displayName": "Bizswiper - Business Card Exchange App",
+    "cordova": {
+        "platforms": [
+            "android",
+            "ios"
+        ],
+        "plugins": {
+            "cordova-plugin-scanbot-sdk": {
+                "CAMERA_USAGE_DESCRIPTION": "This app needs access to the Camera for document scanning features.",
+                "PHOTOLIBRARY_USAGE_DESCRIPTION": "This app needs access to the Photo Library for image operation features."
+            },
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-file": {}
+        }
+    },
+    "dependencies": {
+        "cordova-android": "~6.2.1",
+        "cordova-ios": "~4.3.1",
+        "cordova-plugin-compat": "^1.1.0",
+        "cordova-plugin-file": "^4.3.3",
+        "cordova-plugin-scanbot-sdk": "~1.2.5",
+        "cordova-plugin-whitelist": "1"
+    }
+}
