@@ -13,3 +13,6 @@
 .statusbar-overlay {
     background: #000000;
 }
+#image-result {
+    width: 70%;
+}
